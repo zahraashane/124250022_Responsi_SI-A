@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">PUSDIGIF</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="koleksi.php">Koleksi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="peminjaman.php">Peminjaman</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <a class="btn btn-outline-success" href="index.php">Keluar</a>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="home-word">
+    <h3>PERPUSTAKAAN DIGITAL INFORMATIKA</h3>
+    <p> Selamat Datang Kembali, admin!
+        Klik salah satu tombol di bawah untuk memulai proses manajemen.
+    </p>
+    <a href="catat_pinjam.php" class="btn btn-success">Catat Peminjaman</a>
+    <a href="tambah.php" class="btn btn-success">Tambah Koleksi</a>
+</div>
+
+</body>
+</html>
